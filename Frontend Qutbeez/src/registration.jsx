@@ -74,6 +74,9 @@ function Registration() {
              Don't have an login? <NavLink to='/login'>Login Page</NavLink>
 
             </div>
+
+
+            
         </div>
         
      </div> 
