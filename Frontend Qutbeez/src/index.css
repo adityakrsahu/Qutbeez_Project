@@ -233,7 +233,7 @@ body {
     padding: 2.5rem 1rem;
     border-radius: 1rem;
     color: var(--white-color);
-    margin-left: 550px;
+    /* margin-left: 550px; */
     /* backdrop-filter: blur(16px); */
 }
   
@@ -354,7 +354,7 @@ body {
   padding: 2.5rem 1rem;
   border-radius: 1rem;
   color: var(--white-color);
-  margin-left: 550px;
+  /* margin-left: 550px; */
 }
 
 .login__title1 {
