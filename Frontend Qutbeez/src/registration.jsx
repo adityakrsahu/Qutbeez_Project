@@ -72,11 +72,11 @@ function Registration() {
            <button type="submit" onClick={handleSubmit}  className="login__button">Register</button>
            <div className="login__register">
              Don't have an login? <NavLink to='/login'>Login Page</NavLink>
-
+             
             </div>
 
 
-            
+
         </div>
         
      </div> 
