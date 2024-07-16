@@ -10,7 +10,6 @@ body {
 #topmenu  h1::first-letter{
   font-size: 50px;
   color: "red";
-  /* background-color: #faf9f6; */
 }
 
 #topmenu{
@@ -325,6 +324,7 @@ body {
     margin-bottom: 1rem;
     border-radius: 4rem;
     cursor: pointer;
+    background-color: #ff1744;
 }
 
 .login__register {
