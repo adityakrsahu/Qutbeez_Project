@@ -30,6 +30,7 @@ class Men(models.Model):
         verbose_name_plural = "Men"
 
 
+
 class Women(models.Model):
     name = models.ForeignKey(Category, on_delete=models.CASCADE)
     women_category = models.CharField(max_length=50)

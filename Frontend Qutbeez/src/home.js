@@ -36,7 +36,6 @@ const productAns = mydata.map((product) => {
   return (
     <>
       <div id="hom1">
-
         <div id="cont1">
             <h1>STYLIST PICKS BEAT </h1>    
             <h1>THE HEAT  </h1>
