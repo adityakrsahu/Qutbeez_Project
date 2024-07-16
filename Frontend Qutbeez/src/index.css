@@ -292,6 +292,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: black;
+  background-color: #ff1744;
 }
 
 .login__check {
