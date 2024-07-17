@@ -1,11 +1,10 @@
-// import '../assets/styles/index.css'
 import { NavLink } from 'react-router-dom';
 import { FaUser,FaLock } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { useState } from 'react';
 import axios from 'axios';
 
-function Registration() {
+function Register() {
 
   const [register_input, SetRegisterInput] = useState({});
 
@@ -85,4 +84,4 @@ function Registration() {
   )
 }
 
-export default Registration;
+export default Register;
