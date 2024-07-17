@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../assets/styles/index.css';
+
 import { NavLink } from 'react-router-dom';
 import { FaUser,FaLock } from "react-icons/fa";
 
@@ -7,7 +7,6 @@ function Login() {
   return (
     <>
       <div className="login">
-      {/* <img className="login__bg" src="https://raw.githubusercontent.com/bedimcode/animated-login-form/1b0a04c9d3f47258bd1da07550571c23fadd1327/assets/img/login-bg.png" alt="" /> */}
         <form action="" className="login__form">
            <h1 className="login__title">Login</h1>
 
