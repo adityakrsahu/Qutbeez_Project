@@ -42,7 +42,7 @@ const ProductCardInner = ({ name, price, description, image }) => {
         
         <div className="product-card">
             <Link to="" className='product-card-main'>
-            <img src={image} alt={name} className="product-image" />
+            <img width="300" height="300" src={image} alt={name} className="product-image" />
             <h2 className="product-name">{name}</h2>
             <p className="product-price">${price.toFixed(2)}</p>
             </Link>
