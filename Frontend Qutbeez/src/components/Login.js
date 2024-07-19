@@ -36,7 +36,7 @@ function Login() {
            <button type="submit" className="login__button">Login</button>
 
            <div className="login__register">
-              Don't have an account? <NavLink to='/registration'>Register</NavLink>
+              Don't have an account? <NavLink to='/register'>Register</NavLink>
            </div>
         </form>
      </div> 

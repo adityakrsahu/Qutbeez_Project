@@ -59,6 +59,7 @@ body {
 .profile-dropdown {
   position: relative;
   display: inline-block;
+  z-index: 11;
 }
 
 .profile-icon {
@@ -80,6 +81,7 @@ body {
   width: 238px;
   margin-top: 20px;
   height: 200px;
+  z-index: 11;
 }
 
 #content {
@@ -119,8 +121,19 @@ body {
   color: var(--white-color);
   /* margin-left: 550px; */
   /* backdrop-filter: blur(16px); */
+  animation: zoom-in .5s ease;
+  transition: 0.5s ease;
 }
-
+@keyframes zoom-in{
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .login__title {
   text-align: center;
   color: black;
@@ -178,7 +191,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: black;
-  background-color: #ff1744;
+  /* background-color: #ff1744; */
 }
 
 .login__check {
@@ -242,8 +255,19 @@ body {
   border-radius: 1rem;
   color: var(--white-color);
   /* margin-left: 550px; */
+  animation: zoom-in .5s ease;
+  transition: 0.5s ease;
 }
-
+@keyframes zoom-in{
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .login__title1 {
   text-align: center;
   color: black;
@@ -339,10 +363,8 @@ body {
 .pro-container{
   width: 100%;
   display: flex;
-  /* gap: 10px; */
   row-gap: 20px;
   flex-wrap: wrap;
-  padding: 20px;
   justify-content: space-around;
 }
 .product{
@@ -354,6 +376,7 @@ body {
   background-color: white;
   transition: transform 0.3s;
   border-radius: 10px;
+  cursor: pointer;
 
 }
 /* Add this CSS to your styles */
